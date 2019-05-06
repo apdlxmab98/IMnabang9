@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>콜라주</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.wrap{width: 1200px; margin:auto; background-color: }
+		section{ width: 1200px; margin:auto; position: static; padding-top: 20px; padding-top: 50px;}
+		.hi{background: url();}
+		#coll { width: 500px; transition: all 1s; margin: auto; display: block; }
+		#coll:hover { transform: rotateZ(-30deg); }
+		#coll img{ width: 390px; position: static; transition: all 1s;z-index:1; padding-left:80px; padding-top: 5px}
+		#coll img:hover{ transform: rotateX(360deg); }
+
+		#coll2 { width: 200px; transition: all 2s; margin: auto; display: block; }
+		#coll2:hover { transform: rotateZ(30deg); }
+		#coll2 img{ width: 400px; position: static; transition: all 2s;z-index:9999;}
+		#coll2 img:hover{ transform: rotateX(360deg); }
+		.what{ width: 1200px; position: absolute; padding-top:10px; }
+		.hey{ width: 500px; margin: left;text-align: left; position: absolute; padding-left: 50px}
+		.good{ width: 350px; text-align: right; margin: right; position: absolute; left: 600px; top: 110px; }
+		.on{width:450px;text-align: right; margin: right; position: absolute;left: 700px; top:510px; z-index:9999; display: block; animation:  ro 2s infinite linear ;display: block; margin:auto; text-align: center  }
+			@keyframes ro{ 
+				from{}
+				to{transform: rotate3D(0,1,0,180deg); }   }
+		.dad{width:500px; padding-left: 150px; padding-top: 1200px;display: block; position: absolute; z-index:0; display: block; animation:  do 6s infinite linear ;display: block; margin:auto; text-align: center  }
+			@keyframes do{ 
+				from{}
+				to{transform: rotate3D(0,1,0,360deg); }   }
+		.div { width: 1200px; height: 800px; background-color: #acb0b8}
+
+		.flower{width: 400px; z-index:9999; display: block; position: fixed; animation:  ro 5s infinite linear ;display: block; margin:auto; text-align: center  }
+			@keyframes ro{ 
+				from{}
+				to{transform: rotate3D(1,1,1,360deg); } 
+			}
+		.dada{width:300px; padding-left: 600px; padding-top: 2200px;display: block; position: absolute; z-index:0; display: block;}
+		</style>
+</head>
+<body>
+	<div class="wrap">
+	<section>
+		<img src="v.png" style="position: absolute;  width: 1200px; margin:auto; text-align:center;"  >
+		<img src="e.png" class="flower" style="padding-left: 100px;">
+	</section>
+	
+	<section>
+	<div id="coll">
+		<img src="./a.png" style="display: block" >
+	</div>
+	</section>
+	<section>
+	</section>
+	<section class= "what">
+			<img src="ab.jpg" style="width: 1200px; padding-top:130px;position: absolute;">
+			<img src="l.png" class="hey">
+			<img src="q.png" class="good">
+			<img src="w.png" class="on" >
+	</section>
+	<section >
+		<img src="./d.jpg" style="width: 1200px; display: block; position:absolute; padding-top: 900px;">
+		<img src="./x.png" class= "dad" style="width: 200px; display: block; position:absolute;padding-left:1000px; padding-top:1240px; z-index:2">
+		<img src="./p.png"  style="width: 500px; display: block; position:absolute;padding-left:680px; padding-top:1145px;">
+		<img src="./vv.png"  style="width: 650px; display: block; position:absolute; padding-top:840px;">
+		<img src="./eee.png"  style="width: 600px;display: block; position:absolute; padding-top:1450px;padding-left:20px;z-index:3">
+	</section>
+	<section>
+		<div class= "wee">
+		<img src="./z.png" style="width: 500px; padding-top: 2000px;position: absolute; padding-left: 20px">
+		<img src="./j.png" style="width: 200px; display: block;padding-left: 1000px; position:absolute; position: absolute;padding-top: 2200px">
+		<img src="./hh.png" style="width: 600px; display: block;padding-left: 450px; position:absolute; position: absolute;padding-top: 2000px">
+		<img src= "./g.png" class= "dada">
+	</div>
+	</section>
+	<section>
+		<div id="coll2">
+		<img src="./f.png" style="display: block; position: relative; padding-top: 2200px; padding-left: 20px;" >
+		</div>
+	</section> 
+	</div>
+</body>
+</html>
